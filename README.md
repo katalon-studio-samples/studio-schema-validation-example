@@ -1,6 +1,6 @@
 # studio-schema-validation-example
 
-Navigate to https://docs.katalon.com/katalon-studio/docs/schema-validation.html for further details.
+This is the sample project of Schema Validation for API Testing. To learn more about the concept of schema validation, how to validate a schema in the web service object view, and how to validate a schema in a test case, see [Schema Validation for API Testing](https://docs.katalon.com/katalon-studio/docs/schema-validation.html)
 
 ## Companion products
 

@@ -1,6 +1,6 @@
 # studio-schema-validation-example
 
-TBD
+Navigate to https://docs.katalon.com/katalon-studio/docs/schema-validation.html for further details.
 
 ## Companion products
 

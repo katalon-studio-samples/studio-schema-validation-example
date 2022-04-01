@@ -1,0 +1,18 @@
+<List>
+    <item>
+        <id>3</id>
+        <username>James Johnson</username>
+        <password>789</password>
+        <gender>FEMALE</gender>
+        <age>75</age>
+        <avatar/>
+    </item>
+	<item>
+        <id>4</id>
+        <username>Joan Tennessee</username>
+        <password>123</password>
+        <gender>FEMALE</gender>
+        <age>28</age>
+        <avatar/>
+    </item>
+</List>

@@ -62,7 +62,7 @@ String jsonSchema = '''
 }
 '''
 
-WS.validateJsonSchema(res, "example/json/jsonSchema.json");
-WS.validateJsonSchema(res, jsonSchema);
-WS.validateJsonSchema(res, "example/json/jsonSchemaWrong.json", FailureHandling.CONTINUE_ON_FAILURE);
+WS.validateJsonAgainstSchema(res, "example/json/jsonSchema.json");
+WS.validateJsonAgainstSchema(res, jsonSchema);
+WS.validateJsonAgainstSchema(res, "example/json/jsonSchemaWrong.json", FailureHandling.CONTINUE_ON_FAILURE);
 WS.sendRequestAndVerify(findTestObject('JSON'))

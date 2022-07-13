@@ -35,7 +35,7 @@ String xml = '''<?xml version="1.0" encoding="utf-8"?>
 
 String xmlFile = FileUtils.readFileToString(new File("example/xml/person.xml"));
 
-WS.validateXmlSchema(res, "example/xml/person.xsd");
-WS.validateXmlSchema(xml, "example/xml/personWrong.xsd", FailureHandling.CONTINUE_ON_FAILURE);
-WS.validateXmlSchema(xmlFile, "example/xml/person.xsd", FailureHandling.STOP_ON_FAILURE);
+WS.validateXmlAgainstSchema(res, "example/xml/person.xsd");
+WS.validateXmlAgainstSchema(xml, "example/xml/personWrong.xsd", FailureHandling.CONTINUE_ON_FAILURE);
+WS.validateXmlAgainstSchema(xmlFile, "example/xml/person.xsd", FailureHandling.STOP_ON_FAILURE);
 WS.sendRequestAndVerify(findTestObject('XML'))
